@@ -1,0 +1,5 @@
+lua-linenoise (0.8-perusio.1.0) unstable; urgency=medium
+
+  * Initial package version.
+
+ -- António P. P. Almeida <appa@perusio.net>  Sat, 07 Nov 2015 02:15:55 +0100

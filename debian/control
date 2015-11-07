@@ -1,0 +1,20 @@
+Source: lua-linenoise
+Section: interpreters
+Priority: optional
+Maintainer: António P. P. Almeida <appa@perusio.net> 
+Build-Depends: debhelper (>= 9),  dh-lua
+Standards-Version: 3.9.3
+Homepage: https://github.com/hoelzro/lua-linenoise
+Vcs-Git: https://github.com/hoelzro/lua-linenoise
+Vcs-Browser: https://github.com/hoelzro/lua-linenoise
+
+Package: lua-linenoise
+Architecture: any
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: Linenoise (https://github.com/antirez/linenoise) is a
+ delightfully simple command line library. This Lua module is simply a
+ binding for it.
